@@ -1,0 +1,12 @@
+# Summary
+
+* [Mentor Guidelines](README.md)
+* [Getting Setup](getting-setup.md)
+* [Your first PHP webpage](your-first-php-webpage.md)
+* [Working with text](working-with-text.md)
+* [Talking to the user](talking-to-the-user.md)
+* [Comparison & If statements](comparison--if-statements.md)
+* [Fancy If statements](fancy-if-statements.md)
+* [Loops](loops.md)
+* [Finishing your game](finishing-your-game.md)
+
