@@ -2,7 +2,7 @@
     "title": "Test Sushi Cards",
     "plugins": ["theme-coderdojosushicard"],
     "variables": {
-        "seriesSubject": "PHP"
+        "seriesSubject": "HTML"
     },
     "pdf":{
       "paperSize":"a4",
