@@ -1,13 +1,14 @@
 {
+    "title": "Test Sushi Cards",
     "plugins": ["theme-coderdojosushicard"],
     "variables": {
         "seriesSubject": "PHP"
     },
     "pdf":{
-        "margin":{
-            "top": 100,
-            "left": 0,
-            "right": 0
-        }
-    }    
+      "margin":{
+        "top": 100,
+        "left": 0,
+        "right": 0
+      }
+  }
 }
