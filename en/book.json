@@ -1,5 +1,8 @@
 {
   "title":"Beginner PHP",
+  "variables": {
+    "seriesTitle": "Advanced JavaScript",
+  },
   "language":"en",
   "direction":"ltr",
   "pdf":{
