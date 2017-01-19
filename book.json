@@ -2,5 +2,5 @@
     "plugins": ["theme-coderdojosushicard"],
     "variables": {
         "seriesSubject": "PHP"
-    },
+    }
 }
