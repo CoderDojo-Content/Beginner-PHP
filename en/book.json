@@ -1,6 +1,9 @@
 {
   "title":"Beginner PHP",
   "language":"en",
+  "variables":{
+    "seriesTitle": "Beginner PHP"
+  },
   "direction":"ltr",
   "pdf":{
     "paperSize":"a4",
