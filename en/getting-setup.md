@@ -9,7 +9,7 @@
    * Skip over the **Clone from Git or Mercurial URL**—you don't need to clone anything
    * Choose the **PHP, Apache ...** template, with the icon like this
      ![](/assets/php logo.png)
-5. When everything's done, it should look a little like this
+5. When everything's done, it should look a little like this  
    ![](/assets/c9-setup.png)
 
 6. Now just click on **Create workspace** and you're done!
