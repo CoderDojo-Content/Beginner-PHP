@@ -12,7 +12,12 @@
 5. When everything's done, it should look a little like this  
    ![](/assets/c9-setup.png)
 
-6. Now just click on **Create workspace** and you're done!
+6. Now just click on **Create workspace** and you're all set!
+
+7. Once your workspace is up and running, you'll notice you've been given a few files, which you can see in the sidebar  
+   ![](/assets/c9 sidebar.png)
+
+8. By double-clicking on them, you can open them in your editor. Do this now for **hello-world.php** and delete
 
 
 
