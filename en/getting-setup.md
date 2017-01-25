@@ -17,7 +17,8 @@
 7. Once your workspace is up and running, you'll notice you've been given a few files, which you can see in the sidebar.  
    ![](/assets/c9 sidebar.png)
 
-8. You're going to need to create a new file to put all your code in. You can do this by choosing **File &gt; New File** in the menu.
+8. You're going to need to create a new file to put all your code in. You can do this by choosing **File &gt; New File** in the menu.  
+   ![](/assets/c9 menu.png)
 
 9. Once the file is opened, you can save it by choosing **File &gt; Save As** and giving it a name.
 
