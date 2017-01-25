@@ -14,10 +14,14 @@
 
 6. Now just click on **Create workspace** and you're all set!
 
-7. Once your workspace is up and running, you'll notice you've been given a few files, which you can see in the sidebar  
+7. Once your workspace is up and running, you'll notice you've been given a few files, which you can see in the sidebar.  
    ![](/assets/c9 sidebar.png)
 
-8. By double-clicking on them, you can open them in your editor. Do this now for **hello-world.php** and delete
+8. You're going to need to create a new file to put all your code in. You can do this by choosing **File &gt; New File** in the menu.
+
+9. Once the file is opened, you can save it by choosing **File &gt; Save As** and giving it a name.
+
+10. You're ready to make your first PHP webpage!
 
 
 
