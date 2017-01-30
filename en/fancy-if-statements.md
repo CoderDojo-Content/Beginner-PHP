@@ -33,7 +33,7 @@
     $guessesLeft = $guesses;
    ```
 
-   Note that because we are setting this variable to the value of another, it must be declared **after** that variable.  
+   Note that because you are setting this variable to the value of another, it must be declared **after** that variable.  
     Next, take the rules `echo` code and stick it into an if that checks if the number of guesses the player has left is equal to the number they started with. If it is, then you know it's the first turn and you can show them the rules. If it's not, then tell them how many guesses they have left. \(I'll show you how to update that on the next card!\)  
     Next, take the rules `echo` code and stick it into an if that checks if the number of guesses the player has left is equal to the number they started with. If it is, then you know it's the first turn and you can show them the rules. If it's not, then tell them how many guesses they have left.
 
