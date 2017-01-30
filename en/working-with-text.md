@@ -11,8 +11,7 @@
   
   Notice that you're using double quotes (`"`) around your text instead of single quotes (`'`), for two reasons:
    * PHP will get confused if you use an apostrophe inside of single quotes. Try it and see! What happens, and why?
-   * PHP will do something special inside of double quotes that it won't inside of single quotes, which you'll see below   
-  {% endcallout %} 
+   * PHP will do something special inside of double quotes that it won't inside of single quotes, which you'll see below.
 
 3.  Now it's time for you to start adding **variables**! 
 Variables are labels that you can use to store values, like a *string* of text or a number. PHP remembers those values and lets you use the values later by using their label. This means you can set a value once and use it hundreds of times in your program. For example, if you were building a website like Facebook, you would use one *variable* for the user's name and just refer to that label everywhere you wanted the value. 
