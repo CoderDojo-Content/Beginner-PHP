@@ -1,8 +1,8 @@
-1. First, let's look at making the player lose the game. This needs to happen when they've used their last guess up, so when `$guessesLeft == 0`. Read through the program and decide what behaviours need to change when that happens. I think that it's fine to keep showing the player their last guess and how many guesses they have left, but they shouldn't see either the rules of the game or the guessing form if they've lost. To make that happen, you'll need to use a new bit of code: `elseif`.
+1. First, let's look at making the player lose the game. This needs to happen when they've used their last guess up, so when `$guessesLeft == 0`. When this happens, keep showing them their last guess, and that they have no guesses left, but not the form or the rules. To make that happen, you'll need to use a new bit of code: `elseif`.
 
-2. As you might have guessed `elseif` is a combination of the `if` and `else` statements. Like `else`, it only happens if the condition in an `if` statement is **false**, but like `if` it has a condition.  
+2. As you might have guessed `elseif` is a combination of the `else` and `if` statements. Like `else`, it only happens if the condition in an `if` statement is **false**, but like `if` it has its own condition.  
    You can use as many `elseif` statements as you want, but only the first one that has a **true** condition will run. If none of them are true, the `else` statement will run, just like with a regular `if`.  
-   To get your game to tell the player they've lost, you just want to add an `elseif` to the code that checks if they've guessed the right answer and, if not, shows them the guess form to handle the specific situation where they're out of guesses and show them a different message instead, like this:
+   To get your game to tell the player they've lost, you just want to add an `elseif` to the code that checks their answer and shows them the for to, if they have now guesses left, show them a different message instead, like this:
 
    ```php
     if($secretNumber==$playerGuess){
@@ -37,6 +37,7 @@
    ```
 
 5. Now, try to play your game!
+
 6. How else could you use this code? You've got all the pieces here to make a quiz or an interactive story, where you keep score, ask different questions on each page and even send the player in different directions based on their answers! See what you can come up with!
 
 
