@@ -27,26 +27,5 @@
     }
    ```
 
-4. While you're cleaning up like this: it doesn't make sense to give the player the instructions on how to play every single turn. It would be useful to tell them how many guesses they have left though. To do this, you'll need to create another variable, `guessesLeft` and add it to your file:
-
-   ```php
-    $guessesLeft = $guesses;
-   ```
-
-   Note that because you are setting this variable to the value of another, it must be declared _after_ that variable.  
-    Next, take the rules `echo` code and stick it into an `if` that checks if the number of guesses the player has left is equal to the number they started with. If it is, then you know it's the first turn and you can show them the rules. If it's not, then tell them how many guesses they have left. \(I'll show you how to update that on the next card!\)
-
-   ```php
-    if($guessesLeft==$guesses){
-        echo "I've picked a number between {$minValue} and {$maxValue}<br />";
-        echo "You will have {$guesses} chances to try to guess my number!<br />";
-    }
-    else{
-        echo "You have {$guessesLeft} guesses left.<br />";
-    }
-   ```
-
-5. If you run this code and play through it a few times, you'll notice that the number of guesses never goes down! You'll fix this on the next card.
-
 
 
