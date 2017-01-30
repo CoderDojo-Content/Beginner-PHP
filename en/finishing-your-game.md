@@ -19,7 +19,7 @@
     }
    ```
 
-3. Ok, now you have a game where the player can guess a number, get a certain number of tries and be told if they win or lose. Very cool! However, right now, that number is _always_ 5... which is less cool. PHP is pretty good at coming up with random numbers, though. To use a random number instead you just need to change the code for `secretNumber` like this:
+3. Ok, now you have a game where the player can guess a number, get a certain number of tries and be told if they win or lose. Very cool! But that number is _always_ 5... which is less cool. PHP is pretty good at coming up with random numbers, though. To use a random number instead you just need to change the code for `secretNumber` like this:
 
    ```php
     $secretNumber = $_GET['secretNumber'];
