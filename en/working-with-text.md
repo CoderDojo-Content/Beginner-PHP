@@ -1,5 +1,5 @@
-1. Now it's time to start working on your game! The first thing you're going to need is to teach the player the rules.   
-   You might want to change things like the smallest and biggest numbers, or the number of guesses you're going to give the player. If you wrote out the rules with plain HTML, you'd have to go back and re-write them every time you changed any of those things. You don't need to do that, though. You can use PHP and _variables_ to include the numbers as part of your text!
+1. Now it's time to start working on your game! The first thing you're going to need is to teach the player the rules.  
+   You might want to change things like the smallest and biggest numbers, or the number of guesses you're going to give the player. If you wrote out the rules with plain HTML, you'd have to go back and re-write them every time you changed any of those things. You don't need to do that, though. You can use PHP and **variables** to include the numbers as part of your text!
 
 2. First, you're going to need to to update your text, so change the PHP code on your page to this:
 
@@ -15,8 +15,8 @@
    * PHP will get confused if you use an apostrophe inside of single quotes. Try it and see! What happens, and why?
    * PHP will do something special inside of double quotes that it won't inside of single quotes, which you'll see below.
 
-3. Now it's time for you to start adding **variables**!   
-   Variables are labels that you can use to store values, like a **string** of text or a number. PHP remembers those values and lets you use the values later by using their label. This means you can set a value once and use it hundreds of times in your program. For example, if you were building a website like Facebook, you would use one **variable** for the user's name and just refer to that label everywhere you wanted the value.   
+3. Now it's time for you to start adding **variables**!  
+   Variables are labels that you can use to store values, like a **string** of text or a number. PHP remembers those values and lets you use the values later by using their label. This means you can set a value once and use it hundreds of times in your program. For example, if you were building a website like Facebook, you would use one **variable** for the user's name and just refer to that label everywhere you wanted the value.  
    In PHP, all variable names start with a dollar sign \(`$`\) and are usually written in **camelCase**, where the first word starts with a small \(lowercase\) letter, there are no spaces, and any later words start with capital \(uppercase\) letter.
 
    So, time to add your first **variables**! Put this line in, inside the `<?php` but before the `echo` lines
