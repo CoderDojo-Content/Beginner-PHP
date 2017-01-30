@@ -19,7 +19,7 @@
     }
    ```
 
-3. Ok, now you have a game where the player can guess a number, get a certain number of tries and be told if they win or lose. Very cool! However, right now, that number is _always_ 5... which is less cool. Luckily, PHP is pretty good at coming up with random numbers, and you already know how to keep the same values between variables across page-loads. To use a random number instead you just need to change the code for _secretNumber_ like this:
+3. Ok, now you have a game where the player can guess a number, get a certain number of tries and be told if they win or lose. Very cool! However, right now, that number is _always_ 5... which is less cool. PHP is pretty good at coming up with random numbers, though. To use a random number instead you just need to change the code for `secretNumber` like this:
 
    ```php
     $secretNumber = $_GET['secretNumber'];
@@ -38,7 +38,7 @@
 
 5. Now, try to play your game!
 
-6. How else could you use this code? You've got all the pieces here to make a quiz or an interactive story, where you keep score, ask different questions on each page and even send the player in different directions based on their answers! See what you can come up with!
+6. How else could you use this code? You've got all the pieces here to make a quiz or an interactive story, where you keep score, ask different questions on each page and even send the player in different directions based on their answers!
 
 
 
