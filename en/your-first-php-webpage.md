@@ -15,7 +15,7 @@
     </html>
    ```
 
-   The things in the angle brackets \(`< >`\) are called _HTML tags_ and you'll be coming across a few of them in these cards. There are lots more, though, and you can learn about them in the HTML Sushi Cards and in loads of other places online!
+   The things in the angle brackets \(`< >`\) are called **HTML tags** and you'll be coming across a few of them in these cards. There are lots more, though, and you can learn about them in the HTML Sushi Cards and in loads of other places online!
 
 3. Run that page and you'll see a basic HTML page. To begin with, your PHP page is going to look pretty similar, but very quickly you'll be using the power of PHP to do things that HTML never could alone! To get started, replace that HTML text with some special PHP code.
 
