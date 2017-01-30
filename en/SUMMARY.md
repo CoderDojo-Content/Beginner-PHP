@@ -7,10 +7,8 @@
 * [Talking to the user](talking-to-the-user.md)
 * [Comparison & If statements](comparison--if-statements.md)
 * [Fancy If statements](fancy-if-statements.md)
-* [Cleaning up the game](#)
-
+* [Cleaning up the game](cleaning-up-the-game.md)
 * [Remembering values](loops.md)
-
 * [Finishing your game](finishing-your-game.md)
 
 
