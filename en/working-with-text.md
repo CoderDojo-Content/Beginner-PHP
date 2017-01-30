@@ -8,7 +8,7 @@
   echo "You will have 5 chances to try to guess my number!";
   ```
   The `<br />` is a piece of HTML that tells the browser to start a new line after it. You can put any HTML inside your PHP and it will be treated exactly as if it had been written as HTML.
-  {% callout title="A note on quotes" %}
+  
   Notice that you're using double quotes (`"`) around your text instead of single quotes (`'`), for two reasons:
    * PHP will get confused if you use an apostrophe inside of single quotes. Try it and see! What happens, and why?
    * PHP will do something special inside of double quotes that it won't inside of single quotes, which you'll see below   
