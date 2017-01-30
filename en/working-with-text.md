@@ -18,13 +18,13 @@
 Variables are labels that you can use to store values, like a *string* of text or a number. PHP remembers those values and lets you use the values later by using their label. This means you can set a value once and use it hundreds of times in your program. For example, if you were building a website like Facebook, you would use one *variable* for the user's name and just refer to that label everywhere you wanted the value. 
 In PHP, all variable names start with a dollar sign (`$`) and are usually written in **camelCase**, where the first word starts with a small (lowercase) letter, there are no spaces, and any later words start with capital (uppercase) letter.
 
-  So, time to add your first *variables*! Put this line in, inside the `<?php` but before the `echo` lines
+  So, time to add your first **variables**! Put this line in, inside the `<?php` but before the `echo` lines
     ```php
     $minValue = 1;
     $maxValue = 9;
     $guesses = 5;
     ```
-    All of these *variables* are numbers, but you'll be working with text variables later. 
+    All of these **variables** are numbers, but you'll be working with text variables later. 
 
 4. Now that you have your variables in place, it's time to use them! Update your two `echo` lines so they look like this:
   ```php
