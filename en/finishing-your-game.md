@@ -28,7 +28,7 @@
     }
    ```
 
-   The `rand` is a **function** that takes a minimum and maximum number and gives you back a random number between them. You're using the `minValue` and `maxValue` variables here so you only have to change those numbers in one place and they'll change everywhere in your code!
+   The `rand` is a **function** that takes two numbers and gives you back a random number between them. You're using the `minValue` and `maxValue` variables here so you only have to change those numbers in one place and they'll change everywhere in your code!
 
 4. Now you need to make sure that it's the _same_ random number throughout the game. It wouldn't be fair to keep changing it on your player! You already know how to do this one though: a hidden form field. Just add this to your `echo` code for the guessing form \(you won't need to keep storing it if the player wins or loses!\).
 
