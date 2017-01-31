@@ -37,7 +37,7 @@
 
    Notice the curly braces \(`{` and `}`\) around the variable names to tell PHP not to treat them like regular text!
 
-5. Run your program and see what happens. Then try changing the values of some of the variables \(maybe even into text, but don't forget the quotes around it!\) and run it again. Just make sure to set everything back to the way we've left it here before moving on!
+5. Run your program and see what happens. Then try changing the values of some of the variables and run it again. Just make sure to set everything back to the way we've left it here before moving on!
 
 
 
