@@ -18,7 +18,7 @@
 3. Now it's time for you to start adding **variables**! These are labels that you can use to store values, like a **string** of text or a number. PHP remembers those values and lets you use the values later by using their label. This lets you set a value once and use it loads of times in your program. If you were building a website like Facebook, you would use a **variable** for the user's name and just us that label everywhere you wanted it.  
    In PHP, all variable names start with a dollar sign \(`$`\) and are usually written in **camelCase**, where the first word starts with a small \(lowercase\) letter, there are no spaces, and any later words start with capital \(uppercase\) letter.
 
-   So, time to add your first **variables**! Put this line in, inside the `<?php` but before the `echo` lines
+   Put this line in, inside the `<?php` but before the `echo` lines
 
    ```php
    $minValue = 1;
