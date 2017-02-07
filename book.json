@@ -3,13 +3,4 @@
     "variables": {
         "seriesSubject": "PHP"
     }
-    "pdf":{
-        "paperSize":"a4",
-        "fontSize": 15,
-        "margin":{
-        "top": 100,
-        "left": 0,
-        "right": 0
-        }
-    }
 }
