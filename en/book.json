@@ -6,7 +6,7 @@
   },
   "direction":"ltr",
   "pdf":{
-    "fontSize": 12,
+    "fontSize": 18,
     "paperSize":"a4",
     "margin":{
       "top": 100,
