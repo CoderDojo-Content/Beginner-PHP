@@ -1,36 +1,85 @@
-1. Time to start coding your first real PHP webpage! You're going to start with one of the classics, saying "Hello!" to your user and, by the end of these cards, you'll be making a number guessing game for the user to play!
-2. So, to begin with, every PHP webpage will have at least a little bit of HTML in it. Start by making a really basic one by typing this code into your **index.php** and saving it.
+1. C’est l’heure de coder votre première page en PHP! Vous allez commencer par un grand classique, dire bonjour à vos utilisateurs, mais d’ici la fin de ce tutoriel vous saurez créer un petit jeu où vos utilisateurs devront deviner des nombres!
 
-   ```php
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <title>My PHP webpage</title>
-    </head>
+2. Toute page codée en PHP doit contenir au moins un peu de HTML. Pour l’instant, intégrez ce code de base dans votre **index.php** et enregistrez la page.
 
-    <body>
-    This is just HTML text, it is not clever like your PHP text will be!
-    </body>
+   > `<!DOCTYPE html>`
+   >
+   > `<html>`
+   >
+   > `<head>`
+   >
+   > `<title>Ma page PHP</title>`
+   >
+   > `</head>`
+   >
+   >
+   >
+   > `<body>`
+   >
+   > `Ceci est juste du texte HTML, il n’est pas aussi malin que celui que vous écrirez en PHP !`
+   >
+   > `</body>`
+   >
+   >
+   >
+   > `</html>`
 
-    </html>
+
+
+   Le contenu entre crochets \(&lt;&gt;\)sont des **balises HTML** et vous en trouverez en grand nombre à travers ce tutoriel. Il y en a beaucoup d’autres, vous pouvez en apprendre plus à leur sujet dans les Cartes Sushi HTML et à bien d’autres endroits sur Internet!
+
+
+
+   3/ Lancez cette page et vous verrez une page HTML basique. Au début, votre page PHP va ressembler fort à celle-ci, mais très rapidement vous apprendrez à utiliser le pouvoir de PHP pour faire des choses que le HTML ne saurait jamais faire!
+
+   Commençons à remplacer ce texte en HTML par du code PHP.
+
+   ```
+   <
+   body
+   >
    ```
 
-   The things in the angle brackets \(`< >`\) are called **HTML tags** and you'll be coming across a few of them in these cards. There are lots more, though, and you can learn about them in the HTML Sushi Cards and in loads of other places online!
-
-3. Run that page and you'll see a basic HTML page. To begin with, your PHP page is going to look pretty similar, but very quickly you'll be using the power of PHP to do things that HTML never could alone! To get started, replace that HTML text with some special PHP code.
-
-   ```php
-    <body>
-        <?php
-            echo "Hello everyone! This is my first PHP program!";
-        ?>
-    </body>
+   ```
+   <
+   ?php
    ```
 
-   Notice that PHP code always appears inside `<?php` and `?>`. This is so the computer can tell which parts are PHP and which parts are HTML. Using these, you can put PHP code anywhere inside the HTML.  
-    Also, notice that the PHP code always ends each line with a semicolon \(`;`\). This is so PHP knows to end this command and start another. If you forget to do this, PHP can get very confused.
+   ```
+   echo
+   "
+   Bonjour tout le monde ! Voici mon premier programme en PHP!
+   "
+   ;
+   ```
 
-4. Now save and run your PHP file. Congratulations! If it all worked, you've just written your first PHP webpage!
+   ```
+   ?
+   >
+   ```
+
+   ```
+   <
+   /body
+   >
+   ```
+
+   Notez bien que le code PHP apparaît toujours entre les balises&lt;?phpet?&gt;. Ceci afin que l’ordinateur puisse identifier quelles parties du code sont en PHP et lesquelles sont en HTML. En les utilisant, vous pouvez insérer du code PHP n’importe où dans le HTML.
+
+   Notez également que le code PHP termine chaque ligne par un point-virgule \(;\). Cela permet à PHP de comprendre que la commande est terminée et qu’il peut passer à la suivante. Si vous oubliez de terminer vos lignes par un;vous allez avoir quelques surprises.
+
+
+
+   4/ Enregistrez et lancez votre fichier en PHP.
+
+   Félicitations! Si tout a bien fonctionné, vous venez d’écrire votre première page en PHP!
+
+  
+
+
+
+
+    n����5
 
 
 
