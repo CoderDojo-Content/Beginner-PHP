@@ -23,7 +23,7 @@
    ```php
     if(!empty($playerGuess)){
         echo "Your last guess was {$playerGuess}.";
-    } 
+    }
    ```
 
    Here `empty()` is a special piece of PHP that checks whether the variable inside its brackets has a value and answers either **true** if it doesn't or **false** if it does. The `!` before it reverses this answer, turning a **true** into a **false** and a **false** into a **true**. So what this code says is: "If there is not no value in $playerGuess, then print out _Your last guess was \[the value of player guess\]._"  

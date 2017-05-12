@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Démarrer](getting-setup.md)
+* [Getting Setup](getting-setup.md)
 * [Your first PHP webpage](your-first-php-webpage.md)
 * [Working with text](working-with-text.md)
 * [Talking to the user](talking-to-the-user.md)
