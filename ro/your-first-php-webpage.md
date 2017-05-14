@@ -32,7 +32,7 @@
 
    De asemena, poți observa că o linie PHP se sfârșește mereu cu punct şi virgulă \(`;`\). Astfel PHP știe să termine o comandă și să înceapă alta. Dacă uiți să adaugi punct și virgulă, PHP o să devină foarte confuz.
 
-   4. Acum salvează și rulează fișierul tău PHP. Bravo! Dacă a mers, tocmai ai scris prima ta pagină web PHP!
+4. Acum salvează și rulează fișierul tău PHP. Bravo! Dacă a mers, tocmai ai scris prima ta pagină web PHP!
 
 
 
