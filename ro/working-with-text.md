@@ -27,14 +27,14 @@
 
    Toate aceste **variabile** sunt numere, dar vei lucra cu variabile de text mai târziu.
 
-4. Now, update your two `echo` lines so they look like this:
+4. Acum înlocuiește cele două linii `echo` cu cele de mai jos:
 
    ```php
-   echo "I've picked a number between {$minValue} and {$maxValue}<br />";
-   echo "You will have {$guesses} chances to try to guess my number!";
+   echo "Am ales un număr între {$valoareMin} și {$valoareMax}<br />";
+   echo "Vei avea {$incercari} încercări să ghicești numărul meu!";
    ```
 
-   Notice the curly braces \(`{` and `}`\) around the variable names to tell PHP not to treat them like regular text!
+   Observă acoladele \(`{}`\) din jurul variabilelor prin care PHP știe să nu le proceseze ca simplu text!
 
 5. Run your program and see what happens. Then try changing the values of some of the variables and run it again. Just make sure to set everything back to the way you've got it here before moving on!
 
