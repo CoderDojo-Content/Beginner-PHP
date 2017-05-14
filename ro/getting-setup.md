@@ -6,7 +6,7 @@
    * **Description:** Prima mea pagină web PHP
    * Asigură-te că **Hosted workspace** e selectat
    * Alege **Private** pentru spațiul de lucru
-   * Treci peste **Clone from Git or Mercurial URL**—nu ai nevoie să clonezi niciun proiect
+   * Treci peste **Clone from Git or Mercurial URL**— nu ai nevoie să clonezi niciun proiect
    * Alege  șablonul **PHP, Apache**
 5. Acum apasă pe **Create workspace** și gata!
 6. Odată ce pagina ta e gata să fie folosită, vei putea observa câteva fișiere în bara laterală. 
