@@ -18,9 +18,9 @@
    echo "</form>";
    ```
 
-   Run this code and see what happens!
+   Rulează acest cod și vezi ce se întâmplă!
 
-4. Well, that didn't quite work right, did it? Any idea why? It's because of the double quotes in `<form method="get">`. PHP isn't smart enough to recognise that they are part of the HTML tag; it reads them as the end of the **string** of text that `echo` is trying to insert into the page. After that, it's looking for a semicolon \(`;`\) but instead it finds `g` and gets very confused! This kind of problem can come up quite often either because you've forgotten which kind of quotes to use or you're copying from another of your programs and used quotes differently there. Luckily, it's very easy to fix. Just put a backslash \(`\`\) in front of your all your double quotes \(don't forget the ones in the **input **tag!\) like this, to **escape** the normal rule of ending the **string**!
+4. Păi se pare că n-a mers, așa-i? Ai idee de ce? E din cauza ghilimelelor duble în`<form method="get">`. PHP nu știe să recunoască faptul că sunt parte dintr-un tag HTML; le interpretează ca fiind finalul **șirului de caractere** pe care `echo` încearcă să-l introducă în pagină. Apoi, caută un punct și o virgulă \(`;`\), dar în locul său găsește litera `g` și se bulversează. Astfel de probleme pot apărea deseori fie când uiți ce fel de ghilimele să folosești, fie când copiezi o porțiune dintr-un alt program de-al tău unde ai folosit ghilimelele puțin diferit. Din fericire e simplu să repari problema printr-un backslash \(`\`\) adăugat în fața ghilimelelor duble \(nu le uita pe cele din tag-ul **input**!\), pentru a **anula** regula obișnuită de a sfârși un **șir de caractere**.
 
    ```php
    echo "<form method=\"get\">";
