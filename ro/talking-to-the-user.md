@@ -10,11 +10,11 @@
 
    Un formular HTML e o idee simplă: elemente—precum casete de text, meniuri drop-down, casete de bifat sau butoane—sunt folosite pentru a colecta informații de la utilizatori și pentru a le trimite către programul tău PHP. Uneori, răspunsurile sunt trimise către utilizatori. Vei trimite astfel de răspunsuri în jocul tău.
 
-3. Now, time to add a form to your page! So you can use PHP variables and other code in creating your form, you're going to use `echo` statements to create it, instead of just typing the HTML into the file. So, add the following below your two existing `echo` statements:
+3. E timpul să adaugi un formular pe pagina ta! Vei folosi variabile PHP și linii `echo` pentru a crea formularul în loc să folosești doar HTML. Ce trebuie să faci e să adaugi următoarele linii sub cele 2 linii `echo` deja existente:
 
    ```php
    echo "<form method="get">";
-   echo "Your guess: <input type="text" name="guess"/>";
+   echo "Răspunsul tău: <input type="text" name="guess"/>";
    echo "</form>";
    ```
 
