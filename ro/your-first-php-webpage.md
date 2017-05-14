@@ -28,11 +28,11 @@
     </body>
    ```
 
-   Poți observa că acest cod PHP apare mereu între `<?php `și `?>`. Poți folosi aceste delimitatoare pentru a pune cod PHP oriunde într-un cod HTML, astfel calculatorul poate ști care părți sunt PHP și care sunt HTML. 
+   Poți observa că acest cod PHP apare mereu între `<?php`și `?>`. Poți folosi aceste delimitatoare pentru a pune cod PHP oriunde într-un cod HTML, astfel calculatorul poate ști care părți sunt PHP și care sunt HTML.
 
    De asemena, poți observa că o linie PHP se sfârșește mereu cu punct şi virgulă \(`;`\). Astfel PHP știe să termine o comandă și să înceapă alta. Dacă uiți să adaugi punct și virgulă, PHP o să devină foarte confuz.
 
-Now save and run your PHP file. Congratulations! If it all worked, you've just written your first PHP webpage!
+   4. Acum salvează și rulează fișierul tău PHP. Bravo! Dacă a mers, tocmai ai scris prima ta pagină web PHP!
 
 
 
