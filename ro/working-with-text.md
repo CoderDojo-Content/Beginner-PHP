@@ -1,29 +1,28 @@
-1. Now it's time to start working on your game! The first thing you're going to need is to teach the player the rules.  
-   You might want to change things like the smallest and biggest numbers, or the number of guesses you're going to give the player. If you wrote out the rules with plain HTML, you'd have to go back and re-write them every time you changed any of those things. You don't need to do that, though. You can use PHP and **variables** to include the numbers as part of your text!
+1. Acum e timpul să începi lucrul la jocul tău! Primul lucru pe care trebuie să-l faci e să înveți utilizatorul care sunt regulile de joc. E posibil să vrei să schimbi anumite detalii, precum cel mai mic sau cel mai mare număr, sau numărul de încercări pe care le are utilizatorul. Dacă ai scrie regulile doar în HTML, va trebui să le rescrii de fiecare data când vei dori să le modifici. Nu trebuie să faci asta însă. Poți folosi PHP și **variabile** pentru a include numerele în text!
 
-2. First, you're going to need to to update your text, so change the PHP code on your page to this:
+2. Mai întâi, va trebui să înlocuiești codul PHP de pe pagina ta cu cel de mai jos:
 
    ```php
-   echo "I've picked a number between 1 and 9<br />";
-   echo "You will have 5 chances to try to guess my number!";
+   echo "Am ales un număr între 1 și 9<br />";
+   echo "Vei avea 5 încercări să ghicești numărul meu!";
    ```
 
-   The `<br />` is a piece of HTML that tells the browser to start a new line after it. You can put any HTML inside your PHP and it will be treated exactly as if it had been written as HTML.
+   `<br />` e bucata de HTML care îi spune browser-ului să înceapă o linie nouă. Poți pune orice cod HTML în interiorul codului PHP și va fi procesat de parcă ar fi fost scris ca HTML.
 
-   Notice that you're using double quotes \(`"`\) around your text instead of single quotes \(`'`\), for two reasons:
+   Poți observa că folosești ghilimele duble \(`"`\) în jurul textului tău în loc de ghilimele simple \(`'`\), din două motive:
 
-   * PHP will get confused if you use an apostrophe inside of single quotes. Try it and see! What happens, and why?
-   * PHP will do something special inside of double quotes that it won't inside of single quotes, which you'll see below.
+   * PHP nu va ști ce să facă dacă folosești un apostrof între ghilimele simple. Încearcă și vezi! Ce se întâmplă și de ce?
+   * PHP va face ceva special între ghilimele duble, dar nu între ghilimele simple, ceea ce vei vedea puțin mai jos.
 
-3. Now it's time for you to start adding **variables**! These are labels that you can use to store values, like a **string** of text or a number. PHP remembers those values and lets you use the values later by using their label. This lets you set a value once and use it loads of times in your program.  
-   In PHP, all variable names start with a dollar sign \(`$`\) and are usually written in **camelCase**, where the first word starts with a small \(lowercase\) letter, there are no spaces, and any later words start with capital \(uppercase\) letter.
+3. E timpul să adaugi **variabile**! Acestea sunt etichete pe care le poți folosi să păstrezi valori precum un **șir de caractere** sau un număr. PHP ține minte aceste valori și te lasă să le folosești mai târziu doar folosing etichetele. Acest lucru te ajută să setezi valoarea o singură data și să o folosești de mai multe ori în programul tău.  
+   În PHP, toate variabilele încep cu semnul dolarului \(`$`\) și sunt de regulă scrise în **camelCase**, unde primul cuvânt începe cu literă mică, nu există spații, și orice cuvânt care urmează începe cu literă mare.
 
-   Put this line in, inside the `<?php` but before the `echo` lines
+   Adaugă aceste variabile după `<?php`, dar înainte de liniile `echo`:
 
    ```php
-   $minValue = 1;
-   $maxValue = 9;
-   $guesses = 5;
+   $valoareMin = 1;
+   $valoareMax = 9;
+   $incercari = 5;
    ```
 
    All of these **variables** are numbers, but you'll be working with text variables later.
