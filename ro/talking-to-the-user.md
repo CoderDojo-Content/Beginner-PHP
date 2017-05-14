@@ -26,7 +26,7 @@
    echo "<form method=\"get\">";
    ```
 
-5. Run the code again! Now you've got somewhere for your user to put their text! Type something in and press the enter key. Watch the page URL in the browser and notice what changes!
+5. Rulează codul din nou! Acum ai un loc unde utilizatorul poate să pună răspunsurile sale! Scrie ceva în caseta de text și apasă Enter. Privește URL-ul paginii în browser și vezi ce se schimbă!
 
 
 
