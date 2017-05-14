@@ -36,7 +36,7 @@
 
    Observă acoladele \(`{}`\) din jurul variabilelor prin care PHP știe să nu le proceseze ca simplu text!
 
-5. Run your program and see what happens. Then try changing the values of some of the variables and run it again. Just make sure to set everything back to the way you've got it here before moving on!
+5. Rulează programul tău și vezi ce se întâmplă. Apoi încearcă să schimbi valorile unor variable și rulează-l din nou. Ai grijă să schimbi totul așa cum era, înainte să mergi mai departe! 
 
 
 
