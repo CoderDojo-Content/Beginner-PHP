@@ -25,7 +25,7 @@
    $incercari = 5;
    ```
 
-   All of these **variables** are numbers, but you'll be working with text variables later.
+   Toate aceste **variabile** sunt numere, dar vei lucra cu variabile de text mai târziu.
 
 4. Now, update your two `echo` lines so they look like this:
 
