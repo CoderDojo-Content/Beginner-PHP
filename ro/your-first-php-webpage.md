@@ -1,37 +1,38 @@
-1. Time to start coding your first real PHP webpage! You're going to start with one of the classics, saying "Hello!" to your user and, by the end of these cards, you'll be making a number guessing game for the user to play!
+1. E timpul să codezi prima ta pagină web în PHP! Vei începe cu ceva clasic, prin a spune “Salut!” utilizatorului tău și, după ce vei parcurge toate cărțile, vei avea un joc de ghicit numere cu care utilizatorul paginii tale se poate juca!
 
-2. So, to begin with, every PHP webpage will have at least a little bit of HTML in it. Start by making a really basic one by typing this code into your **index.php** and saving it.
+2. Orice pagină web PHP are măcar puțin HTML în ea. Poți începe prin a construi o pagină simplă, copiind codul de mai jos în **index.php** și salvând fișierul.
 
    ```php
     <!DOCTYPE html>
     <html>
     <head>
-    <title>My PHP webpage</title>
+    <title>Pagina mea web PHP</title>
     </head>
 
     <body>
-    This is just HTML text, it is not clever like your PHP text will be!
+    Acesta e doar text HTML, nu e la fel de deștept precum va fi codul tău PHP!
     </body>
 
     </html>
    ```
 
-   The things in the angle brackets \(`< >`\) are called **HTML tags** and you'll be coming across a few of them in these cards. There are lots more, though, and you can learn about them in the HTML Sushi Cards and in loads of other places online!
+   Elementele dintre paranteze \(`< >`\) se numesc **tag-uri HTML** și le vei mai întâlni de-a lungul cărților. Sunt mult mai multe, mai complicate, și poți afla despre ele citind Cărțile Sushi HTML sau diferite surse online.
 
-3. Run that page and you'll see a basic HTML page. To begin with, your PHP page is going to look pretty similar, but very quickly you'll be using the power of PHP to do things that HTML never could alone! To get started, replace that HTML text with some special PHP code.
+3. Rulează pagina și vei vedea o pagină HTML simplă. Pentru început, pagina ta PHP va arăta asemănător, dar foarte rapid vei folosi puterea PHP pentru a face lucruri pe care HTML nu le-ar putea! Pentru a începe, înlocuiește textul HTML cu un cod PHP special.
 
    ```php
     <body>
         <?php
-            echo "Hello everyone! This is my first PHP program!";
+            echo "Salutare! Acesta e primul meu program PHP!";
         ?>
     </body>
    ```
 
-   Notice that PHP code always appears inside `<?php` and `?>`. This is so the computer can tell which parts are PHP and which parts are HTML. Using these, you can put PHP code anywhere inside the HTML.  
-    Also, notice that the PHP code always ends each line with a semicolon \(`;`\). This is so PHP knows to end this command and start another. If you forget to do this, PHP can get very confused.
+   Poți observa că acest cod PHP apare mereu între `<?php `și `?>`. Poți folosi aceste delimitatoare pentru a pune cod PHP oriunde într-un cod HTML, astfel calculatorul poate ști care părți sunt PHP și care sunt HTML. 
 
-4. Now save and run your PHP file. Congratulations! If it all worked, you've just written your first PHP webpage!
+   De asemena, poți observa că o linie PHP se sfârșește mereu cu punct şi virgulă \(`;`\). Astfel PHP știe să termine o comandă și să înceapă alta. Dacă uiți să adaugi punct și virgulă, PHP o să devină foarte confuz.
+
+Now save and run your PHP file. Congratulations! If it all worked, you've just written your first PHP webpage!
 
 
 
