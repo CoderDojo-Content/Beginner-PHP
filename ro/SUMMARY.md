@@ -1,7 +1,7 @@
 # Conținut
 
-* Introducere
-* Cum să te pregătești
+* [Introducere](/ro/README.md)
+* [Cum să te pregătești](/ro/getting-setup.md)
 * Prima ta pagină web PHP
 * Lucrul cu text
 * Să vorbim cu utilizatorul
