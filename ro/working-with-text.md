@@ -36,7 +36,7 @@
 
    Observă acoladele \(`{}`\) din jurul variabilelor prin care PHP știe să nu le proceseze ca simplu text!
 
-5. Rulează programul tău și vezi ce se întâmplă. Apoi încearcă să schimbi valorile unor variable și rulează-l din nou. Ai grijă să schimbi totul așa cum era, înainte să mergi mai departe! 
+5. Rulează programul tău și vezi ce se întâmplă. Apoi încearcă să schimbi valorile unor variable și rulează-l din nou. Ai grijă să schimbi totul așa cum era, înainte să mergi mai departe!
 
 
 
